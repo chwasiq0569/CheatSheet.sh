@@ -1,0 +1,32 @@
+.heroContainer{
+    max-height: calc(100vh - 4.75rem);
+    height: auto;
+    justify-content: space-between;
+}
+.heroContainer .sections{
+    height: 50%;
+}
+
+.heroContainer .sections:nth-child(2){
+    margin-top: 4.75rem;
+    position: relative;
+}
+
+.heroContainer .sections:nth-child(2) .badge{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    top: -40px;
+    left: 10px;
+    position: absolute;
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
