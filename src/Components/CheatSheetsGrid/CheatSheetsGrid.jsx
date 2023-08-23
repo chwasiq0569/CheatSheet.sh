@@ -1,15 +1,22 @@
 import React from 'react';
+import GridItem from '../GridItem/GridItem';
 
 const CheatSheetsGrid = () => {
-    return (<div style={{ border: "2px solid blue" }} class="flex flex-wrap ">
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-        <div style={{ width: "250px", margin: "0 3rem", height: '250px', border: "2px solid red" }}>01</div>
-    </div>);
+    return (<>
+        <h1 className='font-questrial mx-auto text-center text-3xl text-white font-bold mt-12'>CheatSheets</h1>
+        <div className="flex flex-wrap mx-auto my-8">
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+            <GridItem />
+        </div>
+    </>);
 }
 
 export default CheatSheetsGrid;
