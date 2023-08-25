@@ -1,5 +1,6 @@
 import React from 'react'
 import CheatSheetsGrid from '../../Components/CheatSheetsGrid/CheatSheetsGrid';
+import Footer from '../../Components/Footer/Footer';
 import Hero from '../../Components/Hero/Hero';
 import Navbar from '../../Components/Navbar/Navbar';
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Navbar />
             <Hero />
             <CheatSheetsGrid />
+            <Footer />
         </div>
     </div>);
 }
