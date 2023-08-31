@@ -11,6 +11,7 @@ module.exports = {
     },
     fontFamily: {
       'questrial': ['questrial'],
+      'Poppins': ['Poppins'],
     }
   },
   plugins: [],

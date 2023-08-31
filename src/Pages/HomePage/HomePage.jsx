@@ -6,7 +6,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 const HomePage = () => {
     return (<div className='min-h-full gradient-bg mx-auto flex flex-col
     items-center justify-center px-2 '>
-        <div className='w-full border-4 border-solid border-[#fffff] min-h-full max-w-screen-lg'>
+        <div className='w-full min-h-full max-w-screen-lg'>
             <Navbar />
             <Hero />
             <CheatSheetsGrid />
