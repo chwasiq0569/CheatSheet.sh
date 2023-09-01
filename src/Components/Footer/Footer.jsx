@@ -3,8 +3,8 @@ import LogoImg from "../../assets/Logo.svg"
 
 const Footer = () => {
     return (<div className='min-h-[60vh] w-full flex mx-auto justify-center  bg-[#051038] py-12 '>
-        <div className='w-full min-h-full max-w-screen-lg flex'>
-            <div className="flex w-1/2 h-full flex-col font-questrial cursor-pointer justify-between">
+        <div className='w-full min-h-full max-w-screen-lg flex flex-col md:flex-row'>
+            <div className="flex w-full md:w-1/2 h-full flex-col font-questrial cursor-pointer justify-between">
                 <div className='flex items-center mt-5'>
                     <img className='w-10' src={LogoImg} alt="Logo_Img" />
                     <p className='mx-2 font-bold text-white'>CheatSheets.sh</p> <p className='text-white'>By</p><p className='bg-[#1D4ED8] text-sm text-white p-1 rounded mx-2 text-bold'>@Wasiq Abdullah</p>
@@ -15,8 +15,8 @@ const Footer = () => {
                     <p className='mx-3 text-[#9CA3AF] cursor-pointer hover:text-white hover:transition-all'>Youtube</p>
                 </div>
             </div>
-            <div className="flex w-1/2 flex-col justify-between">
-                <div className="flex flex-col h-1/4">
+            <div className="flex w-full md:w-1/2 flex-col justify-between ">
+                <div className="flex flex-col h-1/4 mt-6 md:mt-0">
                     <div className='flex items-center'>
                         <p className='text-5xl font-bold tracking-tighter	 text-white font-Poppins'>Collaborate</p>
                         <p className='mx-2 text-2xl text-white font-questrial mt-1'>With Us</p>
