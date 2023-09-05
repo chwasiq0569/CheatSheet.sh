@@ -21,7 +21,7 @@ const Footer = () => {
                         <p className='text-5xl font-bold tracking-tighter	 text-white font-Poppins'>Collaborate</p>
                         <p className='mx-2 text-2xl text-white font-questrial mt-1'>With Us</p>
                     </div>
-                    <p className='font-questrial text-white mr-14 my-4'>Our entrepreneurial community, co-investors business partners, and staff for another year well spent.</p>
+                    <p className='text-lg font-questrial text-white mr-14 my-4'>Our entrepreneurial community, co-investors business partners, and staff for another year well spent.</p>
                 </div>
                 <h1 className='text-2xl text-white cursor-pointer font-questrial underline decoration-wavy hover:text-[1.75rem] hover:transition-all'>
                     Join CheatSheet.sh

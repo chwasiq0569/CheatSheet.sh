@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Navbar = () => {
     return (<div className='w-full max-w-screen-lg flex items-center mx-auto justify-between py-4'>
         <img className='w-10' src={LogoImg} alt="Logo_Img" />
-        <ul className='flex cursor-pointer'>
+        <ul className='hidden sm:flex cursor-pointer'>
             <li className='mx-3 text-[#9CA3AF]'>CheatSheets</li>
             <li className='mx-3 text-[#9CA3AF]'>Best Practices</li>
             <li className='mx-3 text-[#9CA3AF]'>Interview Practices</li>
