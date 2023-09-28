@@ -10,7 +10,12 @@ const Navbar = () => {
 
     const [openMenu, setOpenMenu] = React.useState(false);
 
-
+    React.useEffect(() => {
+        if (isMobile) {
+            console.log("SAFASF")
+            document.body.style.overflow = 'hidden'
+        }
+    }, [openMenu])
 
     return (<div className='w-full max-w-screen-lg flex items-center mx-auto justify-between py-4'>
         <div className='flex items-center'>
@@ -29,7 +34,7 @@ const Navbar = () => {
         </div>
         {isMobile && <p onClick={() => setOpenMenu(true)} className='sm:hidden text-white'>MENU</p>}
         {
-            openMenu && <div className='m-0 p-0 absolute left-0 top-0 z-10 w-full min-h-full bg-white flex flex-col justify-center items-center'>
+            openMenu && <div className='absolute left-0 top-0 z-10 w-full min-h-full bg-white flex flex-col justify-center items-center'>
                 <p onClick={() => setOpenMenu(false)} className='sm:hidden absolute top-5 right-7'>X</p>
                 <ul className='w-fit flex flex-col cursor-pointer items-center'>
                     <li className='font-questrial text-lg my-2 text-[#9CA3AF]'>CheatSheets</li>
