@@ -13,8 +13,8 @@ const HomePage = () => {
 
 
     return (<div className='min-h-full gradient-bg mx-auto flex flex-col
-    items-center justify-center px-2 '>
-        <div className='w-full min-h-full max-w-screen-lg'>
+    items-center justify-center px-2'>
+        <div className='w-full min-h-full max-w-screen-lg '>
             <Navbar />
             <Hero2 />
             <CheatSheetsGrid />
