@@ -1,3 +1,11 @@
 .gradient-bg {
-    background: linear-gradient(295.6deg, rgb(0, 0, 0) 12%, rgb(5, 16, 56) 91.1%);
+    background-image: url('./assets/BG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0rem 15vh;
+}
+
+
+.background {
+    background-image: url('./assets/BG.png');
 }

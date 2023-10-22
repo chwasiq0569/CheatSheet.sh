@@ -1,10 +1,13 @@
 import React from 'react'
 import LogoImg from "../../assets/Logo.svg"
+import CheatsheetLogo from "../../assets/CheatsheetLogo.png"
 import LogoBlackImg from "../../assets/LogoBlack.svg"
 import "./cheatsheet.css"
 import data from '../../cheatsheet.json';
 import CodeEditor from '../CodeEditor/CodeEditor';
 import Navbar from '../Navbar/Navbar';
+import GenericPdfDownloader from './GenericPdfDownloader'
+import CheatSheetSVG from './CheatSheetSVG'
 
 const CheatSheet = () => {
 
@@ -13,15 +16,18 @@ const CheatSheet = () => {
     React.useEffect(() => {
         data.map(items => items.python).map(col => col.cols).map(col => console.log('col', col))
         console.log(`bg-[${data[0]?.theme_color}]`)
+        console.log('aa', " bg-[" + data[0]?.theme_color + "] ")
         // .map(row => row.map(rowContent => rowContent.rows.map(rowContentData => console.log(rowContentData.code))))
     }, [])
-    return (<div className='h-full gradient-bg w-full min-h-full gradient-bg mx-auto flex flex-col items-center justify-center px-2'>
+    return (<div className='h-full gradient-bg w-full min-h-full gradient-bg mx-auto flex flex-col items-center justify-center px-2 '>
         <Navbar />
-        <div className={"w-full max-w-screen-lg mx-auto my-8 flex-col items-center bg-rose-50  border-b-8 " + " border-[" + data[0].theme_color + "] "}>
-            {/* bg-${[cheatSheet.theme_color]}  */}
-            <div className={"w-full px-8 py-6 " + " bg-[" + data[0]?.theme_color + "] " + "text-[" + data[0]?.text_color + "] "}>
+
+        <CheatSheetSVG />
+        <GenericPdfDownloader rootElementId="pdf" downloadFileName="FAAF" />
+        {/* <div id='testId' className={"w-full max-w-screen-lg mx-auto my-8 flex-col items-center bg-rose-50 border-b-8 " + " border-[" + data[0].theme_color + "] "}>
+            <div className={"w-full px-8 py-6 " + " bg-[" + data[0]?.theme_color + "] " + " text-[" + data[0]?.text_color + "] "}>
                 <div className='flex items-center'>
-                    <img className='w-10' src={data[0].colors_type === 'dark' ? LogoBlackImg : LogoImg} alt="Logo_Img" /> <span className={"mx-2 font-questrial font-semibold " + "text=[" + data[0].colors_type + "] "}>CheatSheet.sh</span>
+                    <img className='w-10' src={data[0].colors_type === 'dark' ? LogoBlackImg : LogoImg} alt="Logo_Img" /> <span className={"mx-2 font-questrial font-semibold " + "text-[" + data[0].colors_type + "] "}>CheatSheet.sh</span>
                 </div>
                 <div className='flex items-center justify-between my-4 '>
                     <p p className='font-questrial text-2xl font-bold'>Python Cheatsheet</p>
@@ -51,7 +57,7 @@ const CheatSheet = () => {
                 }
             </div>
 
-        </div>
+        </div> */}
 
 
     </div >);

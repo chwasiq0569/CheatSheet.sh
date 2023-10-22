@@ -11,7 +11,6 @@ import CodeEditor from '../../Components/CodeEditor/CodeEditor';
 const HomePage = () => {
     const [code, setCode] = React.useState();
 
-
     return (<div className='min-h-full gradient-bg mx-auto flex flex-col
     items-center justify-center px-2'>
         <div className='w-full min-h-full max-w-screen-lg '>

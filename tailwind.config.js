@@ -11,7 +11,8 @@ module.exports = {
     },
     fontFamily: {
       'questrial': ['questrial'],
-      'Poppins': ['Poppins']
+      'Poppins': ['Poppins'],
+      'drukwidebold': ['Druk Wide Bold']
     }
   },
   plugins: [],
