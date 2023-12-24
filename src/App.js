@@ -1,17 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './Pages/HomePage/HomePage';
-import CodeEditor from './Components/CodeEditor/CodeEditor';
-import CheatSheet from './Components/CheatSheet/CheatSheet';
-import Navbar from './Components/Navbar/Navbar';
+import FixedCheatSheet from './Components/CheatSheet/FixedCheatSheet';
+import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="w-full">
-      <HomePage />
-      {/* <CheatSheet /> */}
-      {/* <CodeEditor /> */}
-    </div>
+    <BrowserRouter>
+      <div className="w-full">
+        {/* <HomePage /> */}
+        {/* <CheatSheet /> */}
+        {/* <CheatSheetSVGImg /> */}
+        {/* <ExportSVG /> */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/cheatsheet" element={<FixedCheatSheet />} />
+        </Routes>
+        {/* <CodeEditor /> */}
+      </div>
+    </BrowserRouter>
+
   );
 }
 

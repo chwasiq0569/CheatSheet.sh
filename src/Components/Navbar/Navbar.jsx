@@ -2,7 +2,7 @@ import React from 'react';
 import LogoImg from "../../assets/Logo.svg"
 import { AiOutlineSearch } from "react-icons/ai";
 import { useMediaQuery } from 'react-responsive'
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const isMobile = useMediaQuery({
@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (<div className='w-full max-w-screen-lg flex items-center mx-auto justify-between py-4'>
         <div className='flex items-center'>
-            <img className='w-10' src={LogoImg} alt="Logo_Img" />
+            <Link to='/'><img className='w-10' src={LogoImg} alt="Logo_Img" /></Link>
             {/* <p>CheatSheet</p> */}
         </div>
 

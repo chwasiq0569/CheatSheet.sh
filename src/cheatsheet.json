@@ -1,5 +1,5 @@
-[
-    {
+{
+    "python": {
         "cheatsheet": "Python",
         "logo": "./assets/icons/python.png",
         "theme_color": "#FCCE0D",
@@ -11,21 +11,35 @@
                     "rows": [
                         {
                             "head": "Definitions",
-                            "content": "<b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "content": "Col1-Row1 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
                             "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
                             "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
                             "renderHtmlContent": true
                         },
                         {
                             "head": "Definitions",
-                            "content": "<b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "content": "Col1-Row2 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
                             "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
                             "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
                             "renderHtmlContent": true
                         },
                         {
                             "head": "Definitions",
-                            "content": "<b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
                             "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
                             "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
                             "renderHtmlContent": true
@@ -36,7 +50,35 @@
                     "rows": [
                         {
                             "head": "Definitions",
-                            "content": "<b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "content": "Col2-Row1 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
                             "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
                             "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
                             "renderHtmlContent": true
@@ -47,12 +89,170 @@
                     "rows": [
                         {
                             "head": "Definitions",
-                            "content": "<b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
-                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>"
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "java": {
+        "cheatsheet": "Java",
+        "logo": "./assets/icons/python.png",
+        "theme_color": "#FCCE0D",
+        "text_color": "#00000",
+        "colors_type": "dark",
+        "java": {
+            "cols": [
+                {
+                    "rows": [
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row1 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row2 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        }
+                    ]
+                },
+                {
+                    "rows": [
+                        {
+                            "head": "Definitions",
+                            "content": "Col2-Row1 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        }
+                    ]
+                },
+                {
+                    "rows": [
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
+                        },
+                        {
+                            "head": "Definitions",
+                            "content": "Col1-Row3 <b>Conda</b> is an application for data science package management and environment management. It is primarily used for managing Python packages, though it also supports R, Ruby, Lua, Scala, Java, JavaScript, C,  C++, and Fortran packages",
+                            "htmlContent": "<table><tr><td>print('123')</td></tr></table>",
+                            "code": "# Display Conda version with conda --version\n# Display Conda system info with conda info\n# Get help on Conda with conda --help\n# Get help on Conda command usage with conda {command} --help\nconda --version\nconda info\ndocker --\ndocker build --\nhelp\nhelp",
+                            "renderHtmlContent": true
                         }
                     ]
                 }
             ]
         }
     }
-]
+}
